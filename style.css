@@ -69,6 +69,10 @@ button {
     font-weight: 600;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .div-list, .quote {
     color: #1F2937;
     padding: 8px 72px 72px;
@@ -90,6 +94,11 @@ img {
 .list {
     justify-content: space-around;
     text-align: center;
+    font-size: 18px;
+}
+
+.list > li > button {
+    width: 150px;
 }
 
 .quote {
@@ -103,4 +112,35 @@ img {
     font-size: 20px;
     font-weight: 600;
     text-align: right;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 0.5;
+    margin: 64px auto;
+    padding: 16px 72px;
+    width: 650px;
+}
+
+.cta-p-first {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.cta-p-second {
+    font-size: 14px;
+}
+
+.cta > button {
+    border: 1px solid #F9FAF8;
+}
+
+footer {
+    padding: 32px;
+    text-align: center;
 }
