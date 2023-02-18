@@ -1,5 +1,5 @@
 # Landing page created for The Odin Project
-
+ This landing page was created using only HTML and CSS
 ## Reference images: 
  [Image01]
 
@@ -7,7 +7,7 @@
 
 ### Links:
   [Repository](https://github.com/ggms13/landing-page)
-  [Github Page]()
+  [Github Page](https://ggms13.github.io/landing-page/)
 
 
 #### Screenshots: 
